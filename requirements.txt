@@ -1,0 +1,21 @@
+# Linux, Python 3.13.16, CUDA 13.0
+# Versions from the notebook setup and successful Kaggle log.
+--extra-index-url https://download.pytorch.org/whl/cu130
+torch==2.11.0+cu130
+numpy==2.2.6
+pandas==2.2.3
+packaging==25.0
+transformers==4.57.3
+peft==0.18.0
+accelerate==1.6.0
+huggingface-hub==0.36.0
+tokenizers==0.22.1
+safetensors==0.5.3
+tqdm==4.67.1
+snowballstemmer==2.2.0
+# Notebook interface: reference versions, not recorded in the original run.
+ipython==9.7.0
+ipykernel==6.30.1
+nbformat==5.10.4
+# Export exact transitive/runtime versions in the original Kaggle environment
+# using export_lock('requirements.txt') as described in README.md.
